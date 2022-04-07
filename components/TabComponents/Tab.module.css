@@ -1,0 +1,20 @@
+.tab {
+  font-family: var(--heading-font);
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: grey;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  height: 100%;
+  margin: auto 0;
+  padding: 0 20px;
+}
+
+.tab[aria-selected="true"] {
+  color: var(--tab-selected);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: var(--tab-selected);;
+}

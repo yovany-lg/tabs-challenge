@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --tab-selected: #d946ef;
+  --heading-font: 'Lato', sans-serif;
+  --paragraph-font: 'Roboto', sans-serif;
+}
